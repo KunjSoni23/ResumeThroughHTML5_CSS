@@ -1,0 +1,237 @@
+body{
+    background-color: #7b7a7a;
+    justify-content: center;
+}
+
+.htmllogo{
+    width: 12%;
+    height: 62px;
+    margin-top: -14%;
+    margin-left: 30%;
+    border: solid 1px white;
+
+}
+.title{
+	font-family: georgia;
+	text-align: left;
+    font-size: 75%;
+}
+
+.photo{
+	border: 1px solid #808080a8;
+    box-shadow: 2px 2px 2px 2px #000000c2;
+    background: url(bg2.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+}
+.avtar{
+    width: 7%;
+    padding-left: 7px;
+    padding-top: 6px;
+}
+
+
+.name{
+	color: white;
+    font-family: georgia;
+    font-size: 79%;
+    padding-left: 7px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: white;
+}
+
+.bio{
+	color: white;
+	background-color: black;
+	box-shadow: 2px 2px 2px 2px #000000c2;
+	font-family: georgia;
+    padding:1%;
+    border:solid 1px grey;
+    line-height: 1.8;
+}
+
+.skills{
+    color:white;
+    background-color: #504949;
+    box-shadow: 2px 2px 2px 2px #000000c2;
+    font-family: georgia;
+    padding: 1%;
+    border:solid 1px grey;
+    line-height: 1.8;
+}
+
+.Experience{
+    color:white;
+    background-color: #211f1f;
+    box-shadow: 2px 2px 2px 2px #000000c2;
+    font-family: georgia;
+    padding: 1%;
+    border:solid 1px grey;
+    line-height: 1.8;
+}
+
+.Recommendations{
+    color:white;
+    background-color: #545050;
+    box-shadow: 2px 2px 2px 2px #000000c2;
+    font-family: georgia;
+    padding: 1%;
+    border:solid 1px grey;
+    line-height: 1.8;
+}
+
+.Media{
+    color:white;
+    background-color: #211f1f;
+    box-shadow: 2px 2px 2px 2px #000000c2;
+    font-family: georgia;
+    padding: 1%;
+    border:solid 1px grey;
+    line-height: 1.8;
+}
+
+.audio{
+    height: 26px;
+    width: 99%;
+}
+
+@media screen and (min-width: 750px){ 
+    
+    body{
+    max-width: 700px;
+    margin: auto;
+    }
+    .title { 
+       font-size: 120%;
+       } 
+
+    .htmllogo{
+        position: relative;
+        bottom: -14px;
+        margin-left: 649px;
+        color: white;
+        width: 84px;
+        height: 95px;
+        padding: 5px;
+        z-index: auto;
+        border:0px;
+    }
+
+    .fixed-text{
+        position: fixed;
+    }
+
+    .photo{
+        margin-left: 5px;
+        border-radius: 15px;
+        width: 265px;
+        height: 126px;
+    }
+
+    .avtar{
+        width: 90px;
+        height: 113px;
+        position: relative;
+        left: 3px;
+        bottom: -1px;
+    }
+
+    .name{
+        position: relative;
+        bottom: 125px;
+        left: 150px;
+        font-size: 72%;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: white;
+        opacity: 0.5;
+    }
+
+    .bio{
+        position: relative;
+        top: -3px;
+        margin-left: 5px;
+        border-radius: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        width: 265px;
+    }
+
+    .r1{
+        height: 0px;
+    }
+
+    .r2{
+        height: 0px;
+    }
+    
+    .r3{
+        height: 0px;
+    }
+
+    .r4{
+        height: 0px;
+    }
+    
+    .skills{
+        position: relative;
+        bottom: 696px;
+        left: 339px;
+        border-radius: 15px;
+        width: 274px;
+        padding: 10px;
+        transform: rotate(-11deg);
+    }
+
+    .Experience{
+        position: relative;
+        bottom: 508px;
+        left: 363px;
+        border-radius: 15px;
+        width: 274px;
+        height: 202px;
+        padding: 10px;
+        transform: rotate(-11deg);
+    }
+
+    .Recommendations{
+        position: relative;
+        bottom: 392px;
+        left: 384px;
+        border-radius: 15px;
+        width: 274px;
+        height: 354px;
+        padding: 10px;
+        transform: rotate(-11deg);
+    }
+
+    .Media{
+        position: relative;
+        bottom: 63px;
+        left: 415px;
+        border-radius: 15px;
+        width: 274px;
+        height: 134px;
+        padding: 10px;
+        transform: rotate(-11deg);
+    }
+    
+}
